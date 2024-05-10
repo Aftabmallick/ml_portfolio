@@ -9727,4 +9727,5 @@ textarea.form-control {
   margin: auto;
   background: white;
   background-color: #000;
+  z-index: 10;
 }

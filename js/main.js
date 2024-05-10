@@ -280,7 +280,18 @@
             $(this).text('START CHAT');
         }
     });
+
+    // Bind scroll event to window
+    $(window).scroll(function(){
+        // Check if the chat box is visible
+        if ($('#test').is(':visible')) {
+            // If visible, hide it
+            $('#test').hide();
+            $("#init_chatbot").text('START CHAT');
+        }
+    });
 });
+
 
 
 
