@@ -269,6 +269,20 @@
     fixedContentPos: false
   });
 
+  $(document).ready(function(){
+    $("#init_chatbot").click(function(){
+        if($(this).text() === 'START CHAT'){
+            $('#test').css('display', 'block');
+            $(this).text('CLOSE CHAT');
+            //initChat();
+        } else {
+            $('#test').css('display', 'none');
+            $(this).text('START CHAT');
+        }
+    });
+});
+
+
 
 
 

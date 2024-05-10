@@ -9706,3 +9706,25 @@ textarea.form-control {
 .exp{
   margin-left: 50%;
 } /*remove this after adding next experience*/
+#init_chatbot{
+  margin-top: 2rem;
+  background: #ffbd39;
+  border: none;
+  padding: 10px 20px;
+  border-radius: 20px;
+  font-size: 12px;
+  font-weight: 500;
+  color: black;
+  font-weight: 800;
+  cursor: pointer;
+  
+}
+.child_chatbot{
+  box-shadow: 0 0 2px salmon;
+  border-radius: 15px;
+  height: 30rem;
+  width: 22rem;
+  margin: auto;
+  background: white;
+  background-color: #000;
+}
